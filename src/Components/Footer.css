@@ -38,7 +38,7 @@ body {
     justify-content: center;
     font-family: 'Roboto', sans-serif;
     color: #ffffff;
-    margin-top: -50px;
+    margin-top: -100px;
     margin-right: 190px;
  }
  .subscribe{
@@ -61,6 +61,18 @@ body {
   margin-top: 10px;
   /* height: 100px; */
  }
-
+.hr{
+  color: #ffffff;
+  margin-top: 50px;
+}
+.fsub1{
+  color: #ffffff;
+  margin-left: -190px;
+  margin-top: 10px;
+}
+.fsub2{
+  color: #ffffff;
+  margin-left: -190px;
+}
 
  
