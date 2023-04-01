@@ -20,6 +20,11 @@ const Footer = () => (
       <p className="fsub2">Menu</p>
     </div>
 
+    <div className="felement4">
+      <p className="fsub3">Menu</p>
+      <p className="fsub4">Menu</p>
+    </div>
+
 
     <div className="search1">
       <input type="text" placeholder="Search" />
@@ -27,8 +32,9 @@ const Footer = () => (
     </div>
 
     <hr className="hr"></hr>
-    <div>
-      <p>Terms and conditions</p>
+    <div className="end elements">
+      <p className="end-elemt-but-one">Terms and conditions</p>
+      <p className="end-elemt-last">privacy</p>
     </div>
   </footer>
 );

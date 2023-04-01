@@ -74,5 +74,26 @@ body {
   color: #ffffff;
   margin-left: -190px;
 }
+.fsub3{
+  color: #ffffff;
+  margin-left: 50px;
+  margin-top: -80px;
+}
+.fsub4{
+  color: #ffffff;
+  margin-left: 50px;
+  margin-top: 0px;
+}
 
+.end-elemt-but-one{
+  color: #ffffff;
+  margin-right: -500px;
+}
+.end-elemt-last{
+  display: flex;
+  justify-content: flex-end;
+  color: #ffffff;
+  margin-top: -40px;
+  margin-right: 250px;
+}
  
