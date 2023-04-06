@@ -1,63 +1,24 @@
-import React, { useRef } from "react";
-import { Container } from "reactstrap";
+
 import "./Header.css";
 
-const navLinks = [
-  {
-    display: "Home",
-    url: "#",
-  },
-  {
-    display: "About",
-    url: "#",
-  },
+import React from 'react'
 
-  {
-    display: "Courses",
-    url: "#",
-  },
-  {
-    display: "Pages",
-    url: "#",
-  },
-];
-
-const Header = () => {
-  const menuRef = useRef();
-
-  const menuToggle = () => menuRef.current.classList.toggle("active__menu");
-
+export const Header = () => {
   return (
     <header className="header">
-      <Container>
-        <div className="navigation d-flex align-items-center justify-content-between">
-          <div className="logo">
-            <h2 className=" d-flex align-items-center gap-1">
-              <i class="ri-pantone-line"></i> Learners
-            </h2>
-          </div>
-
-          <div className="nav d-flex align-items-center gap-5">
-            <div className="nav__menu" ref={menuRef} onClick={menuToggle}>
-              <ul className="nav__list">
-                {navLinks.map((item, index) => (
-                  <li key={index} className="nav__item">
-                    <a href={item.url}>{item.display}</a>
-                  </li>
-                ))}
-              </ul>
-            </div>
-          </div>
-
-          <div className="mobile__menu">
-            <span>
-              <i class="ri-menu-line" onClick={menuToggle}></i>
-            </span>
-          </div>
-        </div>
-      </Container>
-    </header>
-  );
-};
+           <nav>
+               <ul>
+                   <li><a href="#">Home</a></li>
+                   <li><a href="#">About</a></li>
+                   <li><a href="#">Pricing</a></li>
+                   <li><a href="#">Terms of use</a></li>
+                   <li>
+                   <input type="text" placeholder="Search" />
+                   </li>
+               </ul>
+           </nav>
+   </header>
+  )
+}
 
 export default Header;

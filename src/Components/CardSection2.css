@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+
+
+.cardsection2 {
+  display: flex;
+  background-color: #fff;
+  margin-top: 50px;
+}
+
+.cardsection2-row {
+  padding: 30px;
+  row-gap: 40px;
+  column-gap: 40px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.each-card-description-section-2{
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  margin-left: 180px;
+  color: rgba(51, 51, 51, 0.501557);
+}
+
+.card-section-text-2{
+  font-family: 'Work Sans', sans-serif;
+  display:flex ;
+  justify-content: center;
+}
+.card-section-text-div-2{
+  margin-top: 120px;
+}
+.card-section-btn-2{
+  position: absolute;
+width: 114px;
+height: 32px;
+left: 600px;
+top: 850px;
+background: #5eae53;
+border-radius: 8px;
+color: #f7f7f7;
+font-family: 'Work Sans', sans-serif;
+}
+.each-menu-card {
+  width: 270px;
+  height: 320px;
+  /* border-radius: 10px; */
+  border-radius: 12px 12px 0px 0px;
+  background-color: #f7f7f7;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* margin-left: 120px; */
+}
+
+.image-containter-1 {
+  height: 18px;
+  width: 600px;
+
+}
+
+.image-containter-image-2 {
+  width: 270px;
+  height: 208px;
+  margin-left: 165px;
+  margin-top:-150px
+}
+.each-card-title-section-2 {
+  font-family: 'work sans';
+  font-size: 26px;
+  font-weight: 600;
+  margin-top: 30px;
+  margin-left:-160px
+}
+
+.each-card-time-section-2{
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  color:#333333;
+}
+
+

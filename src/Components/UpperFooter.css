@@ -1,0 +1,27 @@
+.body {
+  margin: 0;
+  padding: 0;
+}
+
+.upper-footer {
+  /* height: 500px;
+  width: 1400px; */
+  background: rgb(236, 102, 61);
+  margin-top: 300px;
+}
+.upper-footer-1 h1 {
+  color: whitesmoke;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 60px;
+  margin-left:160px
+}
+.upper-footer-image-div{
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 130px;
+  margin-top: -300px;
+  padding :10px;
+  z-index: 400;
+}

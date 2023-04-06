@@ -1,0 +1,98 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+
+
+.cardsection1 {
+  display: flex;
+  background-color: #fff;
+  margin-top: 50px;
+}
+
+.cardsection1-row {
+  padding: 30px;
+  row-gap: 40px;
+  column-gap: 40px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.card-section-btn {
+  position: absolute;
+  width: 114px;
+  height: 32px;
+  left: 600px;
+  top: 850px;
+  background: #5eae53;
+  border-radius: 8px;
+  color: #f7f7f7;
+  font-family: 'Work Sans', sans-serif;
+}
+
+.card-section-text{
+  font-family: 'Work Sans', sans-serif;
+  display:flex ;
+  justify-content: center;
+}
+.card-section-text-div{
+  margin-top: 120px;
+}
+
+.each-card {
+  width: 200px;
+  height: 250px;
+  border-radius: 10px;
+  background-color: #f7f7f7;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-containter {
+  height: 100px;
+  width: 200px;
+}
+
+.image-containter-image {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin: 0 50px;
+}
+
+.image-containter-count {
+  width: 35px;
+  height: 35px;
+  line-height: 35px;
+  border-radius: 50%;
+  text-align: center;
+  position: relative;
+  top: -100px;
+  right: -125px;
+  background-color: #afd3a9;
+  color: #fff;
+  font-size: 13px;
+}
+
+.each-card-title {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.each-card:hover {
+  background-color: #f49b3f;
+  transform: scale(1.2);
+}
+
+.each-card:hover .image-containter-count {
+  background-color: #5eae53;
+}
+
+.each-card:hover .each-card-title {
+  color: #fff;
+}
+
+.each-card:hover .each-card-description {
+  color: #fff;
+}

@@ -3,12 +3,13 @@ import { Container, Row, Col } from "reactstrap";
 // import heroImg from "../../assests/images/hero-img1.png";
 import "./HeroSection.css";
 import MyImage from "./food3.jpg";
-import MyImage2 from "./food1.png"
-import MyImage3 from "./Bitmap.jpg"
+import MyImage2 from "./food1.png";
+import MyImage3 from "./Bitmap.jpg";
+import Header from "./Header";
 
 const HeroSection = () => {
   return (
-    <section>
+    <section className="hero-section">
       <Container>
         <Row>
           <Col lg="6" md="6">
@@ -26,12 +27,11 @@ const HeroSection = () => {
             </div>
             <div className="search">
               <input type="text" placeholder="Search" />
-              <button className="btn">Search</button>
             </div>
           </Col>
 
           <Col lg="6" md="6">
-            <div className="card" style={{ width: "18rem" }}>
+            <div className="card" style={{ width: "10rem" }}>
               <img src={MyImage} class="card-img-top" alt="coffeimg" />
             </div>
           </Col>
@@ -47,8 +47,19 @@ const HeroSection = () => {
               <img src={MyImage3} class="card-img-top" alt="coffeimg2" />
             </div>
           </Col>
-
         </Row>
+
+        <div style={{ textalign: "center" }}>
+          <span class="dot">
+          <i class="fa-brands fa-facebook" style={{color: '#ffffff'}}></i>
+          </span>
+          <span class="dot">
+          <i class="fa-brands fa-twitter" style={{color: '#ffffff'}}></i>
+          </span>
+          <span class="dot">
+          <i class="fa-brands fa-instagram" style={{color: '#ffffff'}}></i>
+          </span>
+        </div>
       </Container>
     </section>
   );

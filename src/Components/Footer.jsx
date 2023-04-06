@@ -2,9 +2,10 @@ import React from "react";
 import "./Footer.css";
 
 const Footer = () => (
-  <footer className="page-footer font-small blue pt-4">
+  <footer className="page-footer">
     <div className="col-md-6 mt-md-0 mt-3">
-      <h3 className="text-uppercase-1">Footer Content with?</h3>
+      <p className="text-uppercase-1">Te apasiona ayudar<br />
+      a tu comunidad?</p>
       <h1 className="text-uppercase-next">Fonditas</h1>
     </div>
     <div className="felement1">
